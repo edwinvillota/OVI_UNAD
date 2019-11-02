@@ -31,6 +31,11 @@
     text-align: justify;
 }
 
+.lecture-paragraph ul,li {
+    list-style-type: none;
+    font-family: var(--main-text-font);
+}
+
 .image-wrapper {
     display: flex;
     flex-direction: column;
@@ -42,9 +47,11 @@
 }
 
 .image-wrapper cite {
+    font-size: 11px;
     color: #444444;
 }
 
 .images-git {
     width: 350px;
 }
+
