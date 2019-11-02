@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(250px, auto);
     gap: 2em;
     padding: 2em;
 }
@@ -18,12 +18,12 @@
 
 .autor-wrapper .avatar {
     grid-column: 1/2;
-    grid-row: 1/3;
-    background-color: #CCC;
+    grid-row: 1/4;
+    background-color: white;
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border: 8px solid white;
 }
 
@@ -47,5 +47,10 @@
     color: #444;
 }
 
+.autor-wrapper:nth-child(2) > .avatar {
+    background-image: url("../assets/avatars/felipe_bolivar.jpg")
+}
+
 .autor-wrapper:nth-child(1) > .avatar {
+    background-image: url("../assets/avatars/edwin_villota.png");
 }
