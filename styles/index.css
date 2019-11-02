@@ -306,3 +306,11 @@ body {
     font-family: var(--main-text-font);
     color: var(--main-bg-color)
 }
+
+.objetivo-especifico {
+    font-weight: bold;
+}
+
+.parrafo-justificado {
+    text-align: justify;
+}
