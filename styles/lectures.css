@@ -21,9 +21,9 @@
 .lecture-subtitle {
     font-family: var(--main-title-font);
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #444444;
-    margin-bottom: .3em;
+    margin-bottom: .5em;
 }
 
 .lecture-paragraph {
@@ -49,5 +49,9 @@
 .image-wrapper cite {
     font-size: 11px;
     color: #444444;
+}
+
+.images-git {
+    width: 350px;
 }
 
