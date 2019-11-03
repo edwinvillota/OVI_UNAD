@@ -47,6 +47,10 @@
     color: #444;
 }
 
+.autor-wrapper:nth-child(3) > .avatar {
+    background-image: url("../assets/fotoBety.JPG")
+}
+
 .autor-wrapper:nth-child(2) > .avatar {
     background-image: url("../assets/avatars/felipe_bolivar.jpg")
 }

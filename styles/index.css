@@ -308,9 +308,11 @@ body {
 }
 
 .objetivo-especifico {
+    font-family: var(--main-text-font);
     font-weight: bold;
 }
 
 .parrafo-justificado {
+    font-family: var(--main-text-font);
     text-align: justify;
 }
