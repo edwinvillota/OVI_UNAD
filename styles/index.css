@@ -13,8 +13,8 @@
     --main-blue-color: #293462;
     --main-green-color: #00818A;
     --main-orange-color: #EC9B3B;
-    --main-title-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,
-    --main-text-font: 'Verdana', 'sans-serif'
+    --main-title-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --main-text-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
