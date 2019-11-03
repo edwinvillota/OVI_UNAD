@@ -13,8 +13,8 @@
     --main-blue-color: #293462;
     --main-green-color: #00818A;
     --main-orange-color: #EC9B3B;
-    --main-title-font: 'Big Shoulders Text', cursive;
-    --main-text-font: 'Roboto', 'sans-serif'
+    --main-title-font: 'Impact', bold;
+    --main-text-font: 'Verdana', 'sans-serif'
 }
 
 body {
